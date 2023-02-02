@@ -65,13 +65,14 @@
         android:layout_marginTop="360dp"
         android:hint="Phone number"
         android:ems="10"
-        android:inputType="phone" />
+        android:inputType="phone"/>
+
     <Button
+        android:id="@+id/button1"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="440dp"
-        android:text="Sign Up"
 
-        />
+        android:text="Sign Up" />
 </RelativeLayout>

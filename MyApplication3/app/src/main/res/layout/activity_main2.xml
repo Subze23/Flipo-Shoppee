@@ -9,30 +9,43 @@
     >
 
     <Button
-        android:backgroundTint="@android:color/background_light"
+        android:id="@+id/button3"
 
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:layout_centerHorizontal="true"
-        android:text="Signin"
+        android:layout_marginTop="500dp"
         android:background="@drawable/roundstyle"
 
-        android:textColor="@color/teal_200"
+        android:backgroundTint="@android:color/background_light"
 
-        android:layout_marginTop="500dp"
-        />
+        android:text="Sign UP"
+        android:textColor="@color/teal_200" />
 
     <Button
-        android:backgroundTint="@android:color/background_light"
-        android:layout_width="100dp"
+        android:id="@+id/button1"
+        android:layout_width="160dp"
         android:layout_height="50dp"
-        android:layout_centerHorizontal="true"
-        android:text="Login"
+        android:layout_marginLeft="34dp"
+        android:layout_marginTop="400dp"
         android:background="@drawable/roundstyle"
 
-        android:textColor="@color/teal_200"
+        android:backgroundTint="@android:color/background_light"
+        android:text="Login as Buyer"
+        android:textColor="@color/teal_200" />
+
+    <Button
+
+        android:id="@+id/button2"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="220dp"
         android:layout_marginTop="400dp"
-        />
+
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="@android:color/background_light"
+        android:text="Login as Seller"
+        android:textColor="@color/teal_200" />
     <EditText
         android:id="@+id/editTextTextPersonName2"
         android:layout_width="wrap_content"
