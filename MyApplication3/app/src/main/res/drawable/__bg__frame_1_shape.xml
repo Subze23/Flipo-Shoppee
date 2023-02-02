@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- __bg__frame_1 from your XD file. -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+	android:shape="rectangle" >
+	<solid android:color="@color/__bg__frame_1_color" />
+	<gradient android:angle="270" android:type="linear" android:startColor="#ffff0036" android:endColor="#ffff93a9" />
+</shape>
+
