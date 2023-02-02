@@ -16,5 +16,11 @@ class MainActivity6 : AppCompatActivity() {
             val intent = Intent(this, MainActivity5::class.java)
             startActivity(intent)
         })
+        var buttoneasy1: Button?=null
+        buttoneasy1=findViewById<Button>(R.id.button2)
+        buttoneasy1?.setOnClickListener(View.OnClickListener {
+            val intent = Intent(this, MainActivity7::class.java)
+            startActivity(intent)
+        })
     }
 }

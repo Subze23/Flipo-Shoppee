@@ -7,11 +7,32 @@
     tools:context=".MainActivity2"
     android:background="@drawable/__bg__frame_1_shape"
     >
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:fontFamily="cursive"
+        android:text="Flippo Shopee"
+        android:textSize="48sp"
+        android:textStyle="bold|italic" />
 
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Feel the shopping"
+        android:textStyle="bold|italic"
+        android:textSize="16sp"
+        />
     <Button
         android:id="@+id/button3"
 
-        android:layout_width="100dp"
+        android:layout_width="170dp"
         android:layout_height="50dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="500dp"
@@ -48,30 +69,35 @@
         android:textColor="@color/teal_200" />
     <EditText
         android:id="@+id/editTextTextPersonName2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="280dp"
+        android:layout_height="45dp"
         android:ems="10"
+        android:paddingLeft="20dp"
         android:inputType="textPersonName"
         android:hint="Enter Username"
+        android:background="@drawable/roundstyle"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="180dp"
+        android:layout_marginTop="210dp"
         />
 
     <EditText
 
         android:id="@+id/editTextTextPassword"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="280dp"
+        android:layout_height="45dp"
         android:ems="10"
+        android:paddingLeft="20dp"
         android:inputType="textPassword"
         android:hint="Enter Password"
+        android:background="@drawable/roundstyle"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="260dp"
+        android:layout_marginTop="290dp"
         />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_centerHorizontal="true"
+
         android:layout_width="wrap_content"
         android:layout_marginTop="465dp"
         android:layout_height="wrap_content"

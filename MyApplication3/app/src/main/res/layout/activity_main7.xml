@@ -63,7 +63,7 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/continueBtn"
+        android:id="@+id/BUY"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:background="@drawable/__bg__frame_1_shape"
