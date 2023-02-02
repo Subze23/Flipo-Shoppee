@@ -42,18 +42,22 @@
         android:id="@+id/button1"
         android:layout_width="180dp"
         android:layout_height="wrap_content"
-        android:text="Add-item"
+        android:text="ADD-ITEM"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="260dp"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="@android:color/background_light"
         tools:layout_editor_absoluteX="115dp"
         tools:layout_editor_absoluteY="633dp" />
     <Button
         android:id="@+id/button2"
         android:layout_width="180dp"
         android:layout_height="wrap_content"
-        android:text="Manage-Item"
+        android:text="MANAGE-ITEM"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="380dp"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="@android:color/background_light"
         tools:layout_editor_absoluteX="115dp"
         tools:layout_editor_absoluteY="633dp" />
 </RelativeLayout>

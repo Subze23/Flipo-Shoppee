@@ -18,16 +18,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <com.mancj.materialsearchbar.MaterialSearchBar
-            android:id="@+id/searchBar"
-            style="@style/MaterialSearchBarLight"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:mt_hint="Search your favorite product"
-            app:mt_placeholder="Search"
-            app:mt_navIconEnabled="true"
-            app:mt_maxSuggestionsCount="10"
-            app:mt_speechMode="true" />
     </LinearLayout>
 
     <!--androidx.core.widget.NestedScrollView
@@ -67,6 +57,153 @@
 
 
     </LinearLayout>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="260dp"
+        app:srcCompat="@drawable/__bg__frame_1_shape"
+        tools:srcCompat="@drawable/pj" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="260dp"
+        app:srcCompat="@drawable/__bg__frame_1_shape"
+        tools:srcCompat="@drawable/pk" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="480dp"
+        app:srcCompat="@drawable/__bg__frame_1_shape"
+        tools:srcCompat="@drawable/qk" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="480dp"
+        app:srcCompat="@drawable/__bg__frame_1_shape"
+        tools:srcCompat="@drawable/qj" />
+
+    <TextView
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="640dp"
+        android:fontFamily="cursive"
+        android:text="wood idol"
+        android:textSize="23sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="640dp"
+        android:fontFamily="cursive"
+        android:text="wood idol"
+        android:textSize="23sp"
+        android:textStyle="bold|italic" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="640dp"
+        android:fontFamily="cursive"
+        android:text="wood box"
+        android:textSize="23sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="640dp"
+        android:fontFamily="cursive"
+        android:text="wood box"
+        android:textSize="23sp"
+        android:textStyle="bold|italic" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="640dp"
+        android:fontFamily="cursive"
+        android:text="wood box"
+        android:textSize="23sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="640dp"
+        android:fontFamily="cursive"
+        android:text="wood box"
+        android:textSize="23sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="245dp"
+        android:layout_marginTop="420dp"
+        android:fontFamily="cursive"
+        android:text="Graphic tees"
+        android:textSize="23sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="245dp"
+        android:layout_marginTop="420dp"
+        android:fontFamily="cursive"
+        android:text="Graphic tees"
+        android:textSize="23sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="420dp"
+        android:fontFamily="cursive"
+        android:text="Decorative Pots"
+        android:textSize="23sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="420dp"
+        android:fontFamily="cursive"
+        android:text="Decorative Pots"
+        android:textSize="23sp"
+        android:textStyle="bold|italic" />
+
+
+
+    <com.mancj.materialsearchbar.MaterialSearchBar
+        android:id="@+id/searchBar"
+        style="@style/MaterialSearchBarLight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:mt_hint="Search your favorite product"
+        app:mt_maxSuggestionsCount="10"
+        app:mt_navIconEnabled="true"
+        app:mt_placeholder="Search"
+        app:mt_speechMode="true" />
+
+
 
 
 
