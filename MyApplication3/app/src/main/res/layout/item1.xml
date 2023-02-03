@@ -91,6 +91,8 @@
         android:textSize="24sp"
         android:textStyle="bold"
         android:background="@drawable/roundstyle2"
+        android:paddingLeft="15dp"
+        android:paddingTop="7dp"
         android:text="PRICE : ₹ 199"
         tools:layout_editor_absoluteX="244dp"
         tools:layout_editor_absoluteY="445dp" />

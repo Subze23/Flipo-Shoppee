@@ -12,10 +12,10 @@ class MainActivity7 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main7)
-        var buttoneasy: Button?=null
+        /*var buttoneasy: Button?=null
         buttoneasy=findViewById<Button>(R.id.BUY)
         buttoneasy?.setOnClickListener(View.OnClickListener {
             Toast.makeText(this, "Order Placed", Toast.LENGTH_SHORT).show()
-        })
+        })*/
     }
 }
